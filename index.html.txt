@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Omra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Agence Omra">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#omra">Omra</a></li>
+                <li><a href="#visites">Visites</a></li>
+                <li><a href="#info-pratique">Info Pratique</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <h1>Bienvenue à Notre Agence Omra</h1>
+        <p>Découvrez une expérience spirituelle unique avec notre agence spécialisée dans les voyages de Omra.</p>
+    </section>
+
+    <!-- Section Omra -->
+    <section id="omra">
+        <h2>Nos Omra</h2>
+        <div class="omra-list">
+            <!-- Exemple d'un package Omra -->
+            <div class="omra-item">
+                <h3>Omra Médine - La Mecque</h3>
+                <p>Vols directs, hôtels 5 étoiles, et bien plus.</p>
+                <button onclick="window.location.href='https://wa.me/votrenumerowhatsapp'">Réserver</button>
+            </div>
+            <!-- Ajoutez d'autres packages ici -->
+        </div>
+    </section>
+
+    <!-- Section Visites -->
+    <section id="visites">
+        <h2>Lieux Saints à Visiter</h2>
+        <!-- Exemple d'un lieu à Médine -->
+        <div class="visit-item">
+            <h3>Médine - La Mosquée du Prophète</h3>
+            <p>Découvrez la spiritualité de l'une des mosquées les plus sacrées de l'Islam.</p>
+        </div>
+        <!-- Ajoutez d'autres lieux ici -->
+    </section>
+
+    <!-- Section Info Pratique -->
+    <section id="info-pratique">
+        <h2>Bien Préparer Son Départ</h2>
+        <ul>
+            <li>Préparer sa valise avec les indispensables.</li>
+            <li>Vaccinations obligatoires et recommandées.</li>
+            <li>Conseils administratifs et astuces pratiques.</li>
+        </ul>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Agence Omra. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+
+		
+		
+	
+	
